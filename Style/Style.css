@@ -1,0 +1,113 @@
+:root{
+    --darkred:rgb(168, 37, 37)
+}
+
+/* Padding blanc */
+.white-padding {
+    padding: 15px; /* ou la valeur que vous souhaitez */
+    background-color: rgb(255, 255, 255) ;
+}
+
+/* Padding gris */
+.gray-padding {
+    padding: 15px 50px;/* ou la valeur que vous souhaitez */
+    background-color: rgb(221, 215, 215) ; /* ou la couleur grise de votre choix */
+}
+
+/* Padding gris */
+.yellow-padding {
+    padding:0 0 20px ; /* ou la valeur que vous souhaitez */
+    background-color: rgb(241, 241, 209);  /* ou la couleur grise de votre choix */
+}
+
+body {
+    font-family: initial;
+    margin: 0;
+    padding: 20px;
+    border: 5px solid var(--darkred);
+    background-color: rgb(255, 255, 255); /* Couleur de fond du texte */
+}
+
+header {
+    padding: 20px ;
+    text-align: center;
+    background-color: var(--darkred);
+    color: white;
+
+}
+
+main {
+    padding: 20px;;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 10;
+
+}
+
+.separator {
+    border: 1px solid rgb(168, 37, 37); /* Ligne rouge en gras */
+    width: 90%;
+    margin:10px auto; /* Espacement autour de la ligne */
+
+}
+
+.section {
+    padding:10px;  /* Ajoutez d'autres styles au besoin */
+}
+
+footer {
+    background-color:white;
+    border-top:3px ; /* Bordures du pied de page */
+    color: inherit;
+    text-align:right;
+    padding: 10px;;
+    bottom: 0;
+    width:auto;
+    border-left:50px solid rgb(196, 221, 149);
+    border-right:50px solid rgb(196, 221, 149);
+}
+
+.footer-content {
+    max: width 800px;; /* Ajustez la largeur selon vos besoins */
+    margin: auto;
+    color: black;
+    background-color: white;
+}
+
+footer a {
+    text-decoration:underline; /* Soulignez le lien */
+    color:gray; /* Couleur du texte du lien */
+}
+
+.centered-image {
+    
+    max-width:400px; /* Pour que l'image ne dépasse pas la largeur du cadre */
+    
+}
+
+.centered-square {
+    text-align: center;
+    padding: 10px;
+    background-color: white; /* Couleur de fond blanche */
+    border: 2px solid black; /* Bordure solide noire */
+    margin: auto;
+    width: 400px; /* Largeur  */
+    
+}
+
+.gray-underline {
+    color: gray; /* Couleur grise */
+    text-decoration:underline; /* Soulignez le lien */
+}
+
+.literature-poem {
+    margin: 40px;
+    padding:10px; /* Ajout d'une marge interne de 10px pour plus d'espace à l'intérieur du div */
+    width: auto;
+    box-sizing:border-box; /* Inclure la marge et le rembourrage dans la largeur du div */
+}
+
+.literature-poem p {
+    margin: 20px;
+    line-height:5px;
+}
